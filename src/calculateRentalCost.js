@@ -1,3 +1,4 @@
+module.exports = calculateRentalCost;
 /**
  * @param {number} days
  *
@@ -31,4 +32,3 @@ function calculateRentalCost(days) {
   return BASE_PRICE;
 }
 
-module.exports = calculateRentalCost;
